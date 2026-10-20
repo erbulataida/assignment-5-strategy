@@ -74,8 +74,8 @@ Conditional expressions inside algorithms handle their own data, such as invalid
 
 ## Refactoring history
 
-- [Before refactoring](https://github.com/erbulataida/assignment-5-flight-strategy/tree/before-refactoring)
-- [After refactoring](https://github.com/erbulataida/assignment-5-flight-strategy/tree/after-refactoring)
+- [Before refactoring](https://github.com/erbulataida/assignment-5-strategy/commit/2cf2718)
+- [After refactoring](https://github.com/erbulataida/assignment-5-strategy/commit/c64acaf)
 
 The before version calculates fares with switch. The after version delegates to interchangeable strategy objects. FareBehaviorTest remains unchanged across both versions.
 
